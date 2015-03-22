@@ -1,23 +1,14 @@
-package Class_Diagram;
+package akadaly;
 
-public class Olajfolt extends Akad·ly {
-
-	/**
-	 * 
-	 * @param r
-	 */
-	public void viselkedÈs(Robot r) {
-		// TODO - implement Olajfolt.viselkedÈs
-		throw new UnsupportedOperationException();
-	}
+public class Olajfolt extends Akadaly {
 
 	/**
-	 * 
+	 * A robot megcs√∫szik. A k√∂vetkez≈ë k≈ërben nem v√°ltoztathatja a sebess√©g√©t.
 	 * @param r
 	 */
-	public void viselkedÈs(Robot r) {
-		// TODO - implement Olajfolt.viselkedÈs
-		throw new UnsupportedOperationException();
+	public void viselkedes(Robot r) {
+		System.out.println("Olajfolt viselkedes fv.-e kezdodik r parameterrel");
+		r.setOlajonVan(true);
+		System.out.println("Olajfolt viselkedes fv. vege");
 	}
-
 }
