@@ -12,15 +12,11 @@ import java.util.TimerTask;
  * @author C Sharks
  *
  */
-public class Pálya_Menedzser {
+public class Palya_Menedzser {
 
 	private int kor;//Ennyi kőr lesz a játék alatt
 	private int olajkeszlet;//Robot olaj...
 	private int ragacskeszlet;//...és ragacs készlete
-
-	public static void main(String args[]){
-		
-	}
 	
 	/**
 	 * 
@@ -28,21 +24,22 @@ public class Pálya_Menedzser {
 	 * @param ragacs
 	 * @param olaj
 	 */
-	public Pálya_Menedzser(int kor, int ragacs, int olaj) {
-		System.out.println("PM - konstruktor hívás. "+kor+", "+ragacs+", "+olaj+" paraméterekkel.");
+	public Palya_Menedzser(int kor, int ragacs, int olaj) {
+		System.out.println("PM - konstruktor hivas. "+kor+", "+ragacs+", "+olaj+" parameterekkel.");
 		this.kor = kor;
 		this.ragacskeszlet = ragacs;
 		this.olajkeszlet = olaj;
+		System.out.println("PM - Konstruktor vege");
 	}
 
 	public void korSzamol() {
-		System.out.println("PM - korSzamol fv. kezdődik.");
+		System.out.println("PM - korSzamol fv. kezdodik.");
 		this.kor--;//Mínusz 1 kőr
-		System.out.println("korSzamol vége.");
+		System.out.println("korSzamol vege.");
 	}
 
 	public int getKor() {
-		System.out.println("PM - getKor fv. kezdődik és "+this.kor+" értékkel tér vissza.");
+		System.out.println("PM - getKor fv. kezdodik és "+this.kor+" ertekkel ter vissza.");
 		return this.kor;
 	}
 
@@ -51,9 +48,9 @@ public class Pálya_Menedzser {
 	 * @param kor
 	 */
 	public void setKor(int kor) {
-		System.out.println("PM - setKor fv kezdődik "+kor+" paraméterrel.");
+		System.out.println("PM - setKor fv kezdodik "+kor+" parameterrel.");
 		this.kor = kor;
-		System.out.println("setKor vége.");
+		System.out.println("setKor vege.");
 	}
 
 	/**
