@@ -1,4 +1,4 @@
-package Class_Diagram;
+package akadaly;
 
 public class Ragacs extends Akadaly {
 
