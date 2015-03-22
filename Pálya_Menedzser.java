@@ -8,7 +8,7 @@ import java.util.TimerTask;
  * lerakását is ezen keresztül küldi a robot/pálya felé.
  * A játék elején mód van a robotok ragacs és olaj készletének a beállítására.
  * Nyílván tartja a körök számát. Egy kőr alatt minden robot lép egyet. Miután minden robot lépett
- * letelik egy kőr. 
+ * letelik egy kőr.  
  * @author C Sharks
  *
  */
