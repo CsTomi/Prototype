@@ -1,12 +1,14 @@
 package Class_Diagram;
 
-public class Ragacs extends Akadály {
+public class Ragacs extends Akadaly {
 
 	/**
 	 * A robot sebesség vektora a felére csökken.
 	 * @param r
 	 */
-	public void viselkedés(Robot r) {
-		System.out.println();
+	public void viselkedes(Robot r) {
+		System.out.println("Ragacs viselkedes fv. kezdodik r parameterrel.");
+		r.ragacsraLepett();
+		System.out.println("Ragacs viselkedes fv. vege.");
 	}
 }
