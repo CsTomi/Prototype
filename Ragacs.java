@@ -1,23 +1,12 @@
 package Class_Diagram;
 
-public class Ragacs extends Akad·ly {
+public class Ragacs extends Akad√°ly {
 
 	/**
-	 * 
+	 * A robot sebess√©g vektora a fel√©re cs√∂kken.
 	 * @param r
 	 */
-	public void viselkedÈs(Robot r) {
-		// TODO - implement Ragacs.viselkedÈs
-		throw new UnsupportedOperationException();
+	public void viselked√©s(Robot r) {
+		System.out.println();
 	}
-
-	/**
-	 * 
-	 * @param r
-	 */
-	public void viselkedÈs(Robot r) {
-		// TODO - implement Ragacs.viselkedÈs
-		throw new UnsupportedOperationException();
-	}
-
 }
