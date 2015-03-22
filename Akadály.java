@@ -1,17 +1,14 @@
 package Class_Diagram;
 
-public abstract class Akad�ly {
+/**
+ * Az akadály osztály az akadályokra vonatkozó közös
+ * függvényeket és methódusokat írja elő.
+ **/
+public abstract class Akadály {
 
 	/**
-	 * 
-	 * @param r
+	 * A viselkedés fv. kivált a paraméternek megadott robotból valamilyen sebesség változást.
+	 * @param r - ez a robot
 	 */
-	public abstract void viselked�s(Robot r);
-
-	/**
-	 * 
-	 * @param r
-	 */
-	public abstract void viselked�s(Robot r);
-
+	public abstract void viselkedés(Robot r);
 }
