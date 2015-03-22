@@ -1,4 +1,4 @@
-package Class_Diagram;
+package akadaly;
 
 /**
  * Az akadály osztály az akadályokra vonatkozó közös
